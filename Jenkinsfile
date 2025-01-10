@@ -7,8 +7,8 @@ pipeline {
     }
   }
   environment {
-    IMAGE_NAME = '<image name>'
-    PROJECT_KEY = '<project key>' // Set the desired project for CLI scanning
+    IMAGE_NAME = 'ubuntu'
+    PROJECT_KEY = 'jenkins-builds' // Set the desired project for CLI scanning
   }
   stages {
     stage('scan') {
