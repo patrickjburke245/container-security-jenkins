@@ -3,7 +3,7 @@
 pipeline {
   agent {
     dockerfile {
-      filename: 'Dockerfile.orca' // Use the Dockerfile for Orca
+      filename 'Dockerfile.orca' // Use the Dockerfile for Orca
     }
   }
   environment {
